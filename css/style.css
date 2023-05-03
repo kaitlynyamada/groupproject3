@@ -1,0 +1,124 @@
+/* text styles */
+
+
+/* color styles */
+
+
+/* buttons */
+
+/*
+-----------------------------------------------------
+announcement
+-----------------------------------------------------*/
+.announcement {
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    background-color: #C0DCF1;
+    
+}
+/*
+-----------------------------------------------------
+navigation-primary
+-----------------------------------------------------*/
+.navigation-primary {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 px 45px;
+}
+
+.logo img {
+    width: 125px;
+    height: auto;
+}
+
+.logo {
+    padding: 22.5px 16px;
+}
+
+.search {
+    width: 300px;
+    padding: 22.5px 16px;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 22.5px 8px;
+}
+
+.stores {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-right: 12px;
+}
+
+.stores-visual img {
+    width: 30px;
+    height: 30px;
+}
+
+.stores-writing {
+    padding: 0px 6px;
+}
+
+.community {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-right: 12px;
+}
+
+.community-visual img {
+    width: 30px;
+    height: 30px;
+}
+
+.community-writing {
+    padding: 0px 6px;
+}
+
+.styler {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-right: 12px;
+}
+
+.styler-writing {
+    padding: 0px 6px;
+}
+
+.signin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 12px;
+
+}
+
+.signin-writing {
+    padding-left: 6px;
+}
+
+.signin-writing p {
+    margin: 0px;
+}
+
+.nav-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+}
+
+
