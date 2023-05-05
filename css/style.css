@@ -308,11 +308,11 @@ reviews
     padding: 50px 30px;
 }
 
-.review1 {
+.review {
     padding: 30px 30px;
 }
 
-.review1 {
+.review {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -322,88 +322,41 @@ reviews
 
 }
 
-.review1-rating {
+.review-rating {
     padding-right: 10px;
     padding-left: 10px;
 }
 
-.review1-stars {
+.review-stars {
     display: flex;
     flex-direction: row;
 }
 
-.review1-rating p {
+.review-rating p {
     color: green;
 }
 
-.review1-rating img {
+.review-rating img {
     width: 30px;
     height: 30px;
 }
 
-.review1-writing {
+.review-writing {
     width: 60%;
+    flex-grow: 0;
     padding: 0px 10px;
 }
 
-.review1-visual img {
+.review-visual img {
     width: 200px;
 }
 
-.review1-profile {
+.review-profile {
     padding-left: 10px;
     padding-right: 10px;
 }
 
 .review1-profile--user {
-    display: flex;
-    flex-direction: row;
-}
-
-/* review 2*/
-.review2 {
-    padding: 30px 30px;
-}
-
-.review2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border-bottom: 1px solid gray;
-    padding: 50px 20px;
-
-}
-
-.review2-rating {
-    padding-right: 10px;
-    padding-left: 10px;
-}
-
-.review2-stars {
-    display: flex;
-    flex-direction: row;
-}
-
-.review2-rating p {
-    color: green;
-}
-
-.review2-rating img {
-    width: 30px;
-    height: 30px;
-}
-
-.review2-writing {
-    width: 60%;
-    padding: 0px 10px;
-}
-
-.review2-profile {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.review2-profile--user {
     display: flex;
     flex-direction: row;
 }
@@ -433,8 +386,9 @@ recs
 footer
 -----------------------------------------------------*/
 
-.footer img {
+footer img {
     width: 100%;
+    height: auto;
 }
 
 
