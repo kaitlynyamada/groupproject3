@@ -1,11 +1,69 @@
 /* text styles */
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
 
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
 
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    
+}
+
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
 /* color styles */
 
-
+/* container */
+.container-fluid {
+    margin: 0px;
+    padding: 0px;
+}
 /* buttons */
+.button-primary {
+    background: linear-gradient(180deg, #FF0000 0%, #CC0000 100%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
 
+.button-primary a {
+    color: white;
+    text-decoration: none;
+}
 /*
 -----------------------------------------------------
 announcement
@@ -138,5 +196,246 @@ navigation-secondary
     padding: 12px 0px;
     margin: 0px;
 }
+
+/*
+-----------------------------------------------------
+hero
+-----------------------------------------------------*/
+.hero {
+    background-color: black;
+}
+.hero-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hero-content--visual {
+    width: 50%;
+    padding: 0px 30px;
+}
+
+.hero-content--visual img {
+    width: 705px;
+}
+
+.hero-content--writing {
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+
+/*
+-----------------------------------------------------
+info
+-----------------------------------------------------*/
+.info-content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 0px;
+}
+
+.info-content--visual {
+    width: 50%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.info-content--visual img {
+    width: 208px;
+}
+
+.info-content--writing {
+    width: 50%;
+    padding: 50px 30px;
+}
+/*
+-----------------------------------------------------
+how to use
+-----------------------------------------------------*/
+.howto-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px 30px;
+
+}
+
+.howto-content--visual {
+    width: 50%;
+}
+.howto-content--visual img {
+    width: 600px;
+    height: auto;
+}
+
+.howto-content--writing {
+    padding: 30px;
+}
+/*
+-----------------------------------------------------
+try
+-----------------------------------------------------*/
+.try-content {
+    display: flex;
+    flex-direction: column;
+    background: rgba(231, 4, 15, 0.5);
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.try-content--app img {
+    width: 150px;
+}
+
+.try-content--download img {
+    width: 550px;
+}
+/*
+-----------------------------------------------------
+reviews
+-----------------------------------------------------*/
+
+.review-content {
+
+}
+
+.review-content--title {
+    padding: 50px 30px;
+}
+
+.review1 {
+    padding: 30px 30px;
+}
+
+.review1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding: 50px 20px;
+
+}
+
+.review1-rating {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.review1-stars {
+    display: flex;
+    flex-direction: row;
+}
+
+.review1-rating p {
+    color: green;
+}
+
+.review1-rating img {
+    width: 30px;
+    height: 30px;
+}
+
+.review1-writing {
+    width: 60%;
+    padding: 0px 10px;
+}
+
+.review1-visual img {
+    width: 200px;
+}
+
+.review1-profile {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.review1-profile--user {
+    display: flex;
+    flex-direction: row;
+}
+
+/* review 2*/
+.review2 {
+    padding: 30px 30px;
+}
+
+.review2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 50px 20px;
+
+}
+
+.review2-rating {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.review2-stars {
+    display: flex;
+    flex-direction: row;
+}
+
+.review2-rating p {
+    color: green;
+}
+
+.review2-rating img {
+    width: 30px;
+    height: 30px;
+}
+
+.review2-writing {
+    width: 60%;
+    padding: 0px 10px;
+}
+
+.review2-profile {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.review2-profile--user {
+    display: flex;
+    flex-direction: row;
+}
+
+/*
+-----------------------------------------------------
+recs
+-----------------------------------------------------*/
+.recs {
+    padding: 50px 30px;
+}
+
+.recs-content--title {
+    padding: 20px 0px;
+}
+
+.recs-content--product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+/*
+-----------------------------------------------------
+footer
+-----------------------------------------------------*/
+
+.footer img {
+    width: 100%;
+}
+
 
 
