@@ -212,14 +212,17 @@ hero
 
 .hero-content--visual {
     width: 50%;
+    display: flex;
+    justify-content: center;
     padding: 0px 30px;
 }
 
 .hero-content--visual img {
-    width: 705px;
+    width: 640px;
 }
 
 .hero-content--writing {
+    width: 50%;
     padding: 30px;
     color: white;
     text-align: center;
@@ -312,7 +315,7 @@ reviews
     padding: 30px 30px;
 }
 
-.review {
+.review-review {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
