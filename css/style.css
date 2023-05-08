@@ -197,6 +197,37 @@ navigation-secondary
     margin: 0px;
 }
 
+.mobileheader {
+    display: none;
+}
+
+
+/*media queries*/
+/*xsmall*/
+@media only screen and (min-width: 0px) {
+    .desktopheader {
+        display: none;
+    }
+
+    .mobileheader {
+        display: contents;
+    }
+
+    .mobileheader img {
+        width: 100%;
+    }
+}
+/*large*/
+@media only screen and (min-width: 992px) {
+    .desktopheader {
+        display: contents;
+    }
+
+    .mobileheader {
+        display: none;
+    }
+
+}
 /*
 -----------------------------------------------------
 hero
@@ -226,6 +257,28 @@ hero
     padding: 30px;
     color: white;
     text-align: center;
+}
+
+/*media queries*/
+/*xsmall*/
+@media only screen and (min-width: 0px) {
+    .hero-content {
+        flex-direction: column-reverse;
+    }
+
+    .hero-content--writing {
+        width: 100%;
+    }
+}
+/*large*/
+@media only screen and (min-width: 992px) {
+    .hero-content {
+        flex-direction: row;
+    }
+
+    .hero-content--writing{
+        width: 50%;
+    }
 }
 
 /*
@@ -277,6 +330,48 @@ how to use
 
 .howto-content--writing {
     padding: 30px;
+}
+
+/*media queries*/
+/*xsmall*/
+@media only screen and (min-width: 0px) {
+   .howto-content {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px;
+   }
+
+   .howto-content--visual {
+        display: flex;
+        justify-content: center;
+   }
+
+   .howto-content--visual img {
+        width: 400px;
+        height: auto;
+   }
+
+   .howto--visual {
+       padding: 0px;
+       margin: 0px;
+   }
+}
+/*large*/
+@media only screen and (min-width: 992px) {
+    .howto-content {
+        flex-direction: row;
+        padding: 50px 0px
+    }
+
+    .howto-content--visual {
+        display: flex;
+        justify-content: center;
+    }
+
+    .howto-content--visual img {
+        width: 500px;
+        padding-left: 60px;
+    }
 }
 /*
 -----------------------------------------------------
