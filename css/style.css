@@ -516,13 +516,70 @@ animations
     }
   }
 
-/*emergence: how to section*/
-.howto-content--writing [data-emergence=hidden] {
+.heartbeat {
+	animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+@keyframes heartbeat {
+    from {
+      transform: scale(1);
+      transform-origin: center center;
+      animation-timing-function: ease-out;
+    }
+    10% {
+      transform: scale(0.91);
+      animation-timing-function: ease-in;
+    }
+    17% {
+      transform: scale(0.98);
+      animation-timing-function: ease-out;
+    }
+    33% {
+      transform: scale(0.87);
+      animation-timing-function: ease-in;
+    }
+    45% {
+      transform: scale(1);
+      animation-timing-function: ease-out;
+    }
+  }
+/*emergence: info*/
+.info-content[data-emergence] .info-content--visual,
+.info-content--writing {
+    transition: opacity 1s ease;
+}
+.info-content[date-emergence] .info-content--writing {
+    transition-delay: 500ms;
+}
+
+.info-content[data-emergence=hidden] .info-content--visual,
+.info-content[data-emergence=hidden] .info-content--writing {
     opacity: 0;
 }
 
-.howto-content--writing [data-emergence=visible] {
-    transform: 1s ease;
+.info-content[data-emergence=visible] .info-content--visual,
+.info-content[data-emergence=visible] .info-content--writing {
+    opacity: 1;
+}
+
+/*emergence: how to section*/
+/*watching parent then styling the content in in*/
+.howto-content[data-emergence] .howto-content--visual, 
+.howto-content[data-emergence] .howto-content--writing  {
+    transition: opacity 1s ease;
+}
+
+.howto-content[data-emergence] .howto-content--writing {
+    transition-delay: 500ms;
+
+}
+.howto-content[data-emergence=hidden] .howto-content--visual,
+.howto-content[data-emergence=hidden] .howto-content--writing {
+    opacity: 0;
+}
+
+.howto-content[data-emergence=visible] .howto-content--visual, 
+.howto-content[data-emergence=visible] .howto-content--writing {
     opacity: 1;
 }
 
