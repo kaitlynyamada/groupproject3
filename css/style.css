@@ -317,6 +317,7 @@ how to use
     flex-direction: row;
     align-items: center;
     padding: 50px 30px;
+    height: 70vh;
 
 }
 
@@ -370,7 +371,7 @@ how to use
 
     .howto-content--visual img {
         width: 500px;
-        padding-left: 60px;
+        padding-left: 0px;
     }
 }
 /*
@@ -427,6 +428,7 @@ reviews
 .review-stars {
     display: flex;
     flex-direction: row;
+    width: 20%;
 }
 
 .review-rating p {
@@ -451,6 +453,7 @@ reviews
 .review-profile {
     padding-left: 10px;
     padding-right: 10px;
+    width: 20%;
 }
 
 .review1-profile--user {
